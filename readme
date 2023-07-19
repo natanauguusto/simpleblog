@@ -1,0 +1,29 @@
+# Simple Blog
+  - Projeto de Blog Simples Com o Objetivo para Escalar Landing Pages e Fazer Propaganda/Resumos de Produtos Afiliados
+
+# Tecnologias Utilizadas
+* Desenvolvido em Linguagem PHP
+  - Plates - Para Templates FrontEnd
+  - DataLayer - Para Banco de Dados
+  - SlimFramework - Para Controle de Rotas e Desenvolvimento RESTAPI do Blog
+
+# Entidades
+* User
+  - User Id
+  - User Type
+  - Username
+  - Password
+  - Jwt Token
+  - Email
+* Post
+  - Post Id
+  - Post Title
+  - Post Category
+  - Post Description
+  - Post Type
+  - User Id
+* Comment
+  - Comment Id
+  - Post Id
+  - User Id
+  - Comment

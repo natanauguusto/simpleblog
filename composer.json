@@ -6,7 +6,12 @@
     "autoload": {
         "psr-4": {
             "Natan\\SimpleBlog\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers/functions.php",
+            "src/Helpers/bootstrap.php",
+            "config/database.php"
+        ]
     },
     "authors": [
         {
@@ -14,5 +19,13 @@
             "email": "natanaugusto63@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "league/plates": "3.*",
+        "doctrine/orm": "^2.15",
+        "symfony/cache": "^6.3",
+        "illuminate/database": "^10.15",
+        "coffeecode/datalayer": "^2.0"
+    }
 }
